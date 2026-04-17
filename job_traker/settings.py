@@ -67,7 +67,8 @@ REST_FRAMEWORK = {
 }
 
 CORS_ALLOWED_ORIGINS = [
-    'http://localhost:5173',  # Vite default port
+    'http://localhost:5173',
+    'https://jobtraker.netlify.app',
 ]
 
 from datetime import timedelta
